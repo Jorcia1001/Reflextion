@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadEnviromentVariable", "ReadEnviromentVariable\ReadEnviromentVariable.csproj", "{AA84E409-97F2-4615-A43F-E9A388C13F5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection", "Reflection\Reflection.csproj", "{565923C3-04DF-49AD-AA9F-E482F89A2C37}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{AA84E409-97F2-4615-A43F-E9A388C13F5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA84E409-97F2-4615-A43F-E9A388C13F5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA84E409-97F2-4615-A43F-E9A388C13F5A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{565923C3-04DF-49AD-AA9F-E482F89A2C37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{565923C3-04DF-49AD-AA9F-E482F89A2C37}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{565923C3-04DF-49AD-AA9F-E482F89A2C37}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{565923C3-04DF-49AD-AA9F-E482F89A2C37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
