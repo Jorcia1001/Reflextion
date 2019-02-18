@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // La información general de un ensamblado se controla mediante el siguiente 
 // conjunto de atributos. Cambie estos valores de atributo para modificar la información
 // asociada con un ensamblado.
-[assembly: AssemblyTitle("ReadEnviromentVariable")]
+[assembly: AssemblyTitle("Reflection")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ReadEnviromentVariable")]
+[assembly: AssemblyProduct("Reflection")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // El siguiente GUID sirve como id. de typelib si este proyecto se expone a COM.
-[assembly: Guid("aa84e409-97f2-4615-a43f-e9a388c13f5a")]
+[assembly: Guid("565923c3-04df-49ad-aa9f-e482f89a2c37")]
 
 // La información de versión de un ensamblado consta de los cuatro valores siguientes:
 //

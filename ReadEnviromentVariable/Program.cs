@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Configuration;
 
 namespace ReadEnviromentVariable
 {
@@ -10,6 +7,16 @@ namespace ReadEnviromentVariable
     {
         static void Main(string[] args)
         {
+            string sAttr = Environment.ExpandEnvironmentVariables(
+                ConfigurationManager.AppSettings.Get("Key0"));
+            Console.WriteLine(sAttr);
+
+            string sAttr1 = 
+               ConfigurationManager.AppSettings.Get("Key1");
+            Console.WriteLine(sAttr1);
+
+            Console.ReadKey();
+
         }
     }
 }
